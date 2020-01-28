@@ -1,6 +1,6 @@
 <footer  >
    
-<div class="row h-100 container-fluid ">
+<div class="row container-fluid ">
 
     <div class="col-12 col-sm-6">
     
