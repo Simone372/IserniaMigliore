@@ -1,0 +1,51 @@
+@media all and (max-width: 480px){
+
+}
+@media all and (min-width: 481px) and (max-width: 768px){
+    
+}
+@media all and (min-width: 769px) and (max-width: 1024px){
+    
+}
+@media all and (min-width: 1025px) and (max-width: 1440px){
+    #secondo{
+        height: 25rem;
+    }
+    #contatta{
+        margin-top: 10%;
+    }
+}
+@media all and (min-width: 1441px) and (max-width: 1750px){
+    #primo{
+        height: 30rem;
+    }
+    #video{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    #secondo{
+        height: 40rem;
+    }
+    #contatta{
+        margin-top: 20%;
+    }
+}
+@media all and (min-width: 1751px){
+    #primo{
+        height: 40rem;
+    }
+    #video{
+        position: absolute;
+        width: 40%;
+        left: 50%;
+        bottom: 20%;
+    }
+    #secondo{
+        height: 40rem;
+    }
+    #contatta{
+        margin-top: 20%;
+    }
+}
+
+

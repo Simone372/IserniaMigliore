@@ -1,0 +1,29 @@
+#c1{
+    background-color: blue;
+}
+#spazio{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#riga{
+    margin-left: 4%;
+}
+.carousel-inner img{
+    width: 100%;
+    height: auto;
+}
+.card img{
+    margin-top: 30px;
+}
+#colore1{
+    color: red;
+}
+#colore2{
+    color: black;
+}
+a .card img:hover{
+    opacity: 60%;
+}
+a .card h5:hover{
+    opacity: 60%;
+}

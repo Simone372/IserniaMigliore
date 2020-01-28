@@ -1,0 +1,101 @@
+#primo{
+    width: 100%;
+    background-color: blue;
+    position: relative;
+}
+#riga{
+    width: 80%;
+    margin: 0 auto;
+}
+#chisiamo{
+    color: white;
+    z-index: 10;
+    margin-top: 5%;
+}
+#video{
+    z-index: 20;
+    background-color: burlywood;
+    margin-top: 10%;
+    margin-bottom: 10%
+}
+#inclinato1{
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
+#secondo{
+    width: 100%;
+    background-image: url('../img/fontana1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+#inclinato2{
+    width: 100%;
+    position: absolute;
+    left: 0%;
+}
+#contatta{
+    background-color: burlywood;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+/* Marilena*//* social apertura */
+
+
+.center {
+    display: table;
+    width: 100%;
+    height: 100vh;
+}
+
+#social-test {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 50px;
+}
+.center h2 {
+    padding-bottom: 30px;
+    font-size: 40px;
+    color:grey;
+}
+.social {
+    padding-left: 0px;
+}
+.social li {
+    display: inline-block;
+}
+.social li a {
+    color: grey;
+    border-radius: 6px;
+    list-style-type: none;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    padding: 1%;
+    border: 1px solid grey;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    transition: ease .3s;
+}
+
+
+.social:hover> li {
+    opacity: 0.5;
+}
+
+.social:hover> li:hover {
+    opacity: 1;
+}
+.credits, .credits a {
+    font-size: 20px;
+    font-family: Open Sans;
+    color: rgba(256, 256, 256, 0.6);
+}
+/* social chiusura */
